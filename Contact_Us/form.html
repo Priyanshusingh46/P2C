@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact Us</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://www.jqueryscript.net/css/jquerysctipttop.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-------------------------navbar---------------------------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!------------------------favicon------------------------------------>
+    <link href="../img/favicon.png" rel="icon" />
+    <!-----------------------Font Awesome -------------------------------->
+    <script
+      src="https://kit.fontawesome.com/9a8e0f426e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <style>
+    body {
+      background-image: url("1.png");
+      background-color: #cccccc;
+      background-repeat: no-repeat;
+    }
+
+    /*--------------------------- navbar----------------------- */
+
+    .navbar {
+      padding: 0.5rem 0rem !important;
+      background: rgba(255, 255, 255, 0.6);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 0px;
+    }
+
+    .navbar-toggler-icon {
+      color: #000000;
+    }
+
+    .nav-link {
+      color: #000000 !important;
+      font-size: 18px;
+    }
+
+    .brand-logo {
+      height: 58px;
+      width: 219px;
+    }
+
+    .highlight {
+      border: 1px solid #b81a01;
+      box-sizing: border-box;
+      border-radius: 30px;
+    }
+
+    @media only screen and (max-width: 576px) {
+      .brand-logo {
+        height: 58px;
+        width: 180px;
+        margin-left: 2rem;
+      }
+    }
+
+    .heading-box-padding {
+      padding: 5px;
+    }
+
+    .form-heading {
+      text-align: center;
+    }
+
+    .form-position-center {
+      margin: auto;
+      width: 60%;
+      height: 100%;
+      padding-top: 5%;
+    }
+
+    .box-padding {
+      padding: 20px 40px;
+    }
+
+    .button {
+      background: #2c5b7a;
+      background-image: -webkit-linear-gradient(top, #2c5b7a, #2c5b7a);
+      background-image: -moz-linear-gradient(top, #2c5b7a, #2c5b7a);
+      background-image: -ms-linear-gradient(top, #2c5b7a, #2c5b7a);
+      background-image: -o-linear-gradient(top, #2c5b7a, #2c5b7a);
+      background-image: linear-gradient(to bottom, #2c5b7a, #2c5b7a);
+      -webkit-border-radius: 28;
+      -moz-border-radius: 28;
+      border-radius: 28px;
+      -webkit-box-shadow: 0px 1px 3px #666666;
+      -moz-box-shadow: 0px 1px 3px #666666;
+      box-shadow: 0px 1px 3px #666666;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 18px;
+      padding: 10px 30px 10px 30px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #aaafb3;
+      background-image: -webkit-linear-gradient(top, #aaafb3, #aaafb3);
+      background-image: -moz-linear-gradient(top, #aaafb3, #aaafb3);
+      background-image: -ms-linear-gradient(top, #aaafb3, #aaafb3);
+      background-image: -o-linear-gradient(top, #aaafb3, #aaafb3);
+      background-image: linear-gradient(to bottom, #aaafb3, #aaafb3);
+      text-decoration: none;
+    }
+
+    @media only screen and (max-width: 992px) {
+      .ContactSection {
+        text-align: center;
+      }
+
+      .highlight {
+        text-align: center;
+        margin: auto;
+      }
+
+      .form-position-center {
+        margin: auto;
+        width: 70%;
+        height: 100%;
+        padding-top: 10%;
+      }
+    }
+
+    @media only screen and (max-width: 768px) {
+      .form-position-center {
+        margin: auto;
+        width: 80%;
+        height: 100%;
+        padding-top: 10%;
+      }
+    }
+
+    @media only screen and (max-width: 576px) {
+      .logo-size {
+        font-size: 24px;
+        margin-top: 7px;
+      }
+
+      body {
+        background-image: url("2.png");
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+      }
+
+      .heading-box-padding {
+        padding: 0px 40px;
+      }
+
+      .form-position-center {
+        margin: auto;
+        width: 90%;
+        height: 100%;
+        padding-top: 10%;
+      }
+    }
+
+    @media only screen and (max-width: 400px) {
+      .navbar {
+        padding: 0.5rem 5% !important;
+      }
+    }
+  </style>
+
+  <body>
+    <section>
+      <div class="ContactSection">
+        <nav
+          class="navbar navbar-expand-lg navbar-light navbar-style mb-5 pt-4"
+        >
+          <a
+            class="navbar-brand d-flex align-content-center pl-sm-5"
+            href="../index.html"
+          >
+            <img
+              src="../img/LandingSection/p2l_logo.svg"
+              alt="logo"
+              class="brand-logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler mx-4"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-item nav-link px-5" href="../index.html">Home</a>
+              <a class="nav-item nav-link px-5" href="../About_Us/index.html"
+                >About Us</a
+              >
+              <a class="nav-item nav-link px-5" href="../index.html#section-1-b"
+                >Projects</a
+              >
+              <a
+                class="nav-item nav-link px-5 highlight mr-lg-3"
+                href="../Contact_Us/form.html"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <h1 class="form-heading">Contact Us | Power2Create</h1>
+
+    <div class="heading-box-padding"></div>
+    <form
+      class="form-position-center"
+      action="https://formspree.io/f/xqkwllzb"
+      method="POST"
+    >
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control box-padding"
+          name="Name"
+          placeholder="Your Name"
+        />
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="email"
+          class="form-control box-padding"
+          name="Mail"
+          id="exampleInputEmail1"
+          placeholder="Your Mail"
+          aria-describedby="emailHelp"
+        />
+      </div>
+
+      <div class="mb-3">
+        <input
+          type="text"
+          class="form-control box-padding"
+          name="Subject"
+          placeholder="Write Your Subject"
+        />
+      </div>
+
+      <div class="mb-3 message">
+        <textarea
+          type="message"
+          class="form-control box-padding"
+          name="Message"
+          placeholder="Message"
+        ></textarea>
+      </div>
+
+      <div class="d-flex justify-content-end">
+        <button type="submit" class="btn btn-primary button">Submit</button>
+      </div>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

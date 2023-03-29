@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About US</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous" />
+        <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            overflow-x: hidden;
+            height: 100vh;
+        }
+
+        .scroll {
+            height: 90vh;
+            overflow: scroll;
+        }
+
+        ::-webkit-scrollbar {
+            width: 0;
+            /* Remove scrollbar space */
+            background: transparent;
+            /* Optional: just make scrollbar invisible */
+        }
+
+        @media only screen and (max-width:992px) {
+            .scroll {
+                height: 100%;
+                overflow: hidden;
+            }
+        }
+
+        .navbar {
+            padding: .5rem 0rem !important;
+            background: rgba(255, 255, 255, 0.6);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 0px;
+        }
+
+        .navbar-toggler-icon {
+            color: #000000;
+        }
+
+        .nav-link {
+            color: #000000 !important;
+            font-size: 18px;
+        }
+
+        .brand-logo {
+            height: 58px;
+            width: 219px;
+        }
+
+        .highlight {
+            border: 1px solid #B81A01;
+            box-sizing: border-box;
+            border-radius: 30px;
+        }
+
+        @media only screen and (max-width:990px) {
+            .navbar {
+                text-align: center;
+            }
+
+            .highlight {
+                text-align: center;
+                margin: auto;
+            }
+        }
+
+        @media only screen and (max-width: 576px) {
+            .brand-logo {
+                height: 58px;
+                width: 180px;
+                margin-left: 2rem;
+            }
+        }
+
+
+        #left-heading {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+        }
+
+        .right-heading {
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 37px;
+            color: #000000;
+        }
+
+        .list-item {
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+        }
+
+        a:visited {
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 39px;
+            text-align: center;
+            color: #000000;
+            padding-top: 10px;
+        }
+
+        .name-position {
+            text-align: center;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+
+        .timeline-heading {
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 33px;
+            color: #000000;
+        }
+
+        .timeline-subheading {
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+        }
+
+        .para-text {
+            font-size: 20px;
+            line-height: 30px;
+            color: #424242;
+        }
+
+        #left-padding {
+            padding-left: 4%;
+        }
+
+        #image-margin-top {
+            padding-top: 1.5%;
+        }
+
+        @media only screen and (max-width: 1200px) {
+
+            .image-dimension {
+                height: 120px;
+            }
+
+
+        }
+
+        @media only screen and (max-width: 992px) {
+
+            .image-dimension {
+                height: 100px;
+            }
+
+            #image-margin-top {
+                padding-top: 0;
+            }
+
+        }
+
+        @media only screen and (max-width: 576px) {
+
+            .image-dimension {
+                height: 70px;
+            }
+
+            .name {
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 39px;
+                text-align: center;
+                color: #000000;
+            }
+
+            .name-position {
+                text-align: center;
+                font-size: 14px;
+            }
+
+            #left-padding {
+                padding-left: 8%;
+            }
+
+        }
+    </style>
+
+
+
+    <body>
+        <div class="landingSection">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-style mb-5 pt-4">
+                <a class="navbar-brand d-flex align-content-center pl-sm-5" href="../index.html">
+                    <img src="../img/LandingSection/p2l_logo.svg" alt="logo" class="brand-logo">
+                </a>
+                <button class="navbar-toggler mx-4" type="button" data-toggle="collapse"
+                    data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-item nav-link px-5" href="../index.html">Home</a>
+                        <a class="nav-item nav-link px-5 highlight" href="../About_Us/index.html">About Us</a>
+                        <a class="nav-item nav-link px-5" href="../index.html#section-1-b">Projects</a>
+                        <a class="nav-item nav-link px-5" href="../Contact_Us/form.html">Contact Us</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-5">
+
+                <div id="left-padding">
+                    <div classs="list-item"><a id="journey" href="#section-1">About P2L</a></div>
+                    <div classs="list-item"><a id="journey" href="#section-2">Journey of P2L</a></div>
+                    <div classs="list-item"><a id="team" href="#section-3">Team Members</a></div>
+                </div>
+
+            </div>
+            <div class="col-lg-7">
+                <div class="scroll">
+                    <div id="section-1">
+                        <h1 id="left-padding" class="right-heading">About P2L </h1>
+                        <div class="container" id="left-padding">
+                            <p class="para-text">
+
+                                In 2019, we started our venture with minimal resource but within short span we are
+                                emerging
+                                as one of the best business incubators in India.
+                                <br><br>
+                                We are registered under The Company Act,
+                                2013 and consists of edged as well as experienced professional from almost all sort of
+                                fields i.e. Lawyers, Chartered Accountants, Market Analyst, Social Media Team, Financial
+                                Experts and Others.
+                                <br><br>
+                                Synergies of our professionals made us to catalyse change and stand
+                                apart from other business incubators, for creating a difference.
+                                <br><br>
+                                We combine tech
+                                expertise
+                                and business intelligence to deliver results. This make us firmly and rightly stand as a
+                                class and not as a mass!
+                            </p>
+                        </div>
+                    </div>
+                    <!--journey of P2L-->
+                    <div id="section-2">
+                        <h1 id="left-padding" class="right-heading">Journey of P2L</h1>
+                        <div style="padding-top:6%;"></div>
+
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-2" id="image-margin-top">
+                                    <img id="left-padding" src="../img/AboutUs/Union.png" alt="timeline">
+                                </div>
+
+                                <div class="col-10">
+                                    <div>
+                                        <p class="timeline-heading">2015 - Foundation</p>
+                                        <p class="timeline-subheading">In 2015, P2L was founded.</p>
+                                    </div>
+                                    <div style="padding-top:6%;"></div>
+                                    <div>
+                                        <p class="timeline-heading">2018 - Propreitorship</p>
+                                        <p class="timeline-subheading">In 2018, P2L was brought into propreitorship.</p>
+                                    </div>
+                                    <div style="padding-top:6%;"></div>
+                                    <div>
+                                        <p class="timeline-heading">2019 - Pvt. Ltd.</p>
+                                        <p class="timeline-subheading">In 2019, P2L was incorporated a Private Limited
+                                            Company.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="padding-top:7%;"></div>
+                    <!--team members-->
+                    <div id="section-3" class="mb-4">
+
+                        <h1 id="left-padding" id="section-3" class="right-heading ">Team Members </h1>
+                        <div style="padding-top:6%;"></div>
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col" style="text-align: center;">
+                                    <img class="image-dimension" src="../img/AboutUs/image1.png" alt="Konark
+                          Director & Project Lead">
+                                    <div>
+                                        <div class="name">Shilpy</div>
+                                        <div class="name-position">Director & Project Lead</div>
+                                    </div>
+                                </div>
+                                <div class="col" style="text-align: center;">
+                                    <img class="image-dimension" src="../img/AboutUs/image2.png" alt="Shilpy
+                          Director & Project Lead
+                          ">
+                                    <div>
+                                        <div class="name">Konark</div>
+                                        <div class="name-position"> Director & Project Lead </div>
+                                    </div>
+                                </div>
+                                <div class="col" style="text-align: center;">
+                                    <img class="image-dimension" src="../img/AboutUs/image3.png" alt="Saksham
+                          Sr. Backend Developer
+                          ">
+                                    <div>
+                                        <div class="name">Saksham</div>
+                                        <div class="name-position"> Sr. Backend Developer </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding:20px;"></div>
+                            <div class="row">
+                                <div class="col" style="text-align: center;">
+                                    <img class="image-dimension" src="../img/AboutUs/image4.png" alt="Himanshu
+                              Flutter App Developer">
+                                    <div>
+                                        <div class="name">Himanshu</div>
+                                        <div class="name-position">Flutter App Developer</div>
+                                    </div>
+                                </div>
+                                <div class="col" style="text-align: center;">
+                                    <img class="image-dimension" src="../img/AboutUs/image5.png" alt="Deepak
+                              UI/UX Design">
+                                    <div>
+                                        <div class="name">Deepak</div>
+                                        <div class="name-position"> UI/UX Design</div>
+                                    </div>
+                                </div>
+                                <div class="col" style="text-align: center;">
+                                    <img class="image-dimension" src="../img/AboutUs/image6.png" alt="Vikas
+                              UI/UX Design">
+                                    <div>
+                                        <div class="name">Vikas</div>
+                                        <div class="name-position">UI/UX Design</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+            integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+            integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous">
+        </script>
+
+
+
+    </body>
+
+</html>
