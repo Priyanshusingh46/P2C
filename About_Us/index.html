@@ -41,6 +41,19 @@
             background: transparent;
             /* Optional: just make scrollbar invisible */
         }
+        .our_techer{
+            display: flex;
+            margin-bottom: 5%;
+        }
+        .our_techer_text_div{
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        #our_techer_image{
+            width: 140px;
+            height: 140px;
+        }
 
         @media only screen and (max-width:992px) {
             .scroll {
@@ -215,7 +228,18 @@
             #left-padding {
                 padding-left: 8%;
             }
-
+            .our_techer{
+                flex-direction: column;
+            }
+            .our_techer_image_div{
+                display: flex;
+                justify-content: center;
+                margin-bottom: 10px;
+            }
+            #our_techer_image {
+            width: 110px;
+            height: 110px;
+            }
         }
     </style>
 
@@ -318,20 +342,20 @@
                     <!--team members-->
                     <div id="section-3" class="mb-4">
 
-                        <h1 id="left-padding" id="section-3" class="right-heading ">Team Members </h1>
+                        <h1 id="left-padding" id="section-3" class="right-heading ">Our Teachers </h1>
                         <div style="padding-top:6%;"></div>
                         <div class="container">
 
                             <div class="row">
-                                <div class="col" style="text-align: center;">
+                              <!--  <div class="col" style="text-align: center;">
                                     <img class="image-dimension" src="../img/AboutUs/image1.png" alt="Konark
                           Director & Project Lead">
                                     <div>
                                         <div class="name">Shilpy</div>
                                         <div class="name-position">Director & Project Lead</div>
                                     </div>
-                                </div>
-                                <div class="col" style="text-align: center;">
+                                </div> -->
+                              <!--  <div class="col" style="text-align: center;">
                                     <img class="image-dimension" src="../img/AboutUs/image2.png" alt="Shilpy
                           Director & Project Lead
                           ">
@@ -339,8 +363,8 @@
                                         <div class="name">Konark</div>
                                         <div class="name-position"> Director & Project Lead </div>
                                     </div>
-                                </div>
-                                <div class="col" style="text-align: center;">
+                                </div> -->
+                               <!-- <div class="col" style="text-align: center;">
                                     <img class="image-dimension" src="../img/AboutUs/image3.png" alt="Saksham
                           Sr. Backend Developer
                           ">
@@ -348,10 +372,49 @@
                                         <div class="name">Saksham</div>
                                         <div class="name-position"> Sr. Backend Developer </div>
                                     </div>
+                                </div>-->
+                            <div class="our_techer">
+                                <div class="our_techer_image_div" >
+                                    <img id="our_techer_image" src="../img/AboutUs/konark.png" alt="error"/>
+                                </div>
+
+                                <div class="our_techer_text_div">
+                                    <h2>Mr. Konark Kumar</h2>
+                                    <p>Meet Mr. Konark Kumar, a seasoned teacher with over 20 years 
+                                        of experience. He holds a B.Tech honors degree in Integrated
+                                        Engineering and an MBA from London University. Mr. Kumar's 
+                                        impressive academic background has enabled him to impart 
+                                        comprehensive knowledge to his students. He is dedicated to
+                                        fostering a love for learning in his pupils and equipping them 
+                                        with the skills they need to succeed in life.</p>
                                 </div>
                             </div>
-                            <div style="padding:20px;"></div>
-                            <div class="row">
+
+
+
+                            <div class="our_techer">
+                                <div class="our_techer_image_div">
+                                    <img id="our_techer_image" src="../img/AboutUs/shilphy.png" alt="error"/>
+                                </div>
+
+                                <div class="our_techer_text_div">
+                                    <h2>Dr Sakshi Bhardwaj </h2>
+                                    <p>Mrs Sakshi Bhardwaj is a highly qualified and experienced teacher 
+                                        with over 13 years of teaching experience. She holds a BHMS and MD
+                                         in Psychiatry and MAPC. She specializes in teaching chemistry and 
+                                         has a passion for educating and inspiring her students. With her 
+                                         extensive knowledge and skills, she is dedicated to providing her 
+                                         students with a quality education that helps them excel in their
+                                        academic and professional pursuits.</p>
+                                </div>
+                            </div>
+
+
+
+                            
+                            </div>
+                            <!--<div style="padding:20px;"></div> -->
+                           <!-- <div class="row">
                                 <div class="col" style="text-align: center;">
                                     <img class="image-dimension" src="../img/AboutUs/image4.png" alt="Himanshu
                               Flutter App Developer">
@@ -376,7 +439,9 @@
                                         <div class="name-position">UI/UX Design</div>
                                     </div>
                                 </div>
-                            </div>
+                            
+                            
+                            </div> -->
 
                         </div>
                     </div>
