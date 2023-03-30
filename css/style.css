@@ -279,7 +279,7 @@ a {
 
 /* Slideshow container */
 .slideshow-container {
-    margin: 0% 5%;
+    margin: 5% 5%;
     /* padding: 5% 10%; */
     background: #FFFFFF;
     border: 1px solid #E6E6E6;
@@ -287,7 +287,14 @@ a {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 26px;
 }
-
+.testimonial_div{
+    margin-top: -40px;
+}
+#testimonial_images{
+    width: 114px;
+    height: 114px;
+    border-radius: 84px;
+}
 .container-inner-upper-content {
     padding: 3% 10% 2%;
 }
