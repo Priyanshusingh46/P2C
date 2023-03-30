@@ -230,6 +230,13 @@ a {
         transform: translate(0px, -48px);
         z-index: 5;
     }
+    #image_data_science{
+        width: 180px;
+        height: 180px;
+    }
+    .col-lg-4 {
+        margin-top: -14px;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -241,6 +248,15 @@ a {
     .text-background-a {
         width: 14rem;
     }
+    #image_data_science {
+        width: 150px;
+        height: 150px;
+    }
+    .col-lg-4 {
+        margin-top: 0px;
+    }
+    
+    
 }
 
 
@@ -265,6 +281,10 @@ a {
     .text-background-a {
         transform: translate(-55px, 5px);   
         width: 11rem;
+    }
+    #image_data_science {
+        width: 110px;
+        height: 110px;
     }
 
 }
