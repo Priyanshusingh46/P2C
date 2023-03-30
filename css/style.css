@@ -28,7 +28,7 @@ a {
 }
 
 .landingSection {
-    height: 120vh;
+    /*height: 120vh;*/
     overflow-x: hidden;
     background: linear-gradient(72.47deg, rgba(249, 206, 199, 0.62) 0%, rgba(248, 208, 201, 0.510725) 52.44%, rgba(56, 56, 55, 0.5084) 100%);
     padding: 0;
@@ -105,7 +105,11 @@ a {
     outline: none;
     box-shadow: none;
 }
-
+.col-lg-4{
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
 @media only screen and (max-width:990px) {
     .navbar {
         text-align: center;
@@ -164,6 +168,7 @@ a {
 
 #main-box {
     padding: 2% 10%;
+    margin-top: 70px;
 }
 
 #inside-box {
@@ -338,7 +343,7 @@ hr {
 
 .text-background-b {
     position: relative;
-    transform: translate(-110px, 5px);
+    transform: translate(-32px, 5px);
     width: 15rem;
     height: 29px;
 }
