@@ -165,6 +165,32 @@ a {
     background-color: #ffe7e3;
     z-index: 5;
 }
+#main-box1{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+    margin-top: 70px;
+}
+#yearstext{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;  
+}
+.years_div{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #EB6B57;
+    border-radius: 100px;
+    background-color: #ffff;
+}
+.outer_div_of_years{
+    width: 250px;
+    height: 250px;
+    border: 4px solid #EB6B57;
+    border-radius: 125px;
+    padding: 22px;
+    background-color: #ffff;
+}
 
 #main-box {
     padding: 2% 10%;
@@ -237,6 +263,25 @@ a {
     .col-lg-4 {
         margin-top: -14px;
     }
+    #yearstext {
+        margin-top: 53px;
+        text-align: center;
+        font-size: 21px;
+        font-weight: 600;
+    }
+    .years_div {
+        width: 150px;
+        height: 150px;
+        border: 4px solid #EB6B57;
+        border-radius: 75px;
+    }
+    .outer_div_of_years {
+        width: 200px;
+        height: 200px;
+        border: 4px solid #EB6B57;
+        border-radius: 125px;
+        padding: 20px;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -254,6 +299,26 @@ a {
     }
     .col-lg-4 {
         margin-top: 0px;
+    }
+
+    #yearstext {
+        margin-top: 53px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .years_div {
+        width: 120px;
+        height: 120px;
+        border: 4px solid #EB6B57;
+        border-radius: 60px;
+    }
+    .outer_div_of_years {
+        width: 150px;
+        height: 150px;
+        border: 4px solid #EB6B57;
+        border-radius: 75px;
+        padding: 10px;
     }
     
     
@@ -286,7 +351,60 @@ a {
         width: 110px;
         height: 110px;
     }
+    .years_div {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #EB6B57;
+        border-radius: 40px;
+    }
+    .outer_div_of_years {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #EB6B57;
+        border-radius: 50px;
+        padding: 7px;
+    }
+    #yearstext {
+        margin-top: 24px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 600;
+        flex-wrap: wrap;
+    }
 
+}
+
+@media only screen and (max-width: 375px){
+    .years_div {
+        width: 60px;
+        height: 60px;
+        border: 3px solid #EB6B57;
+        border-radius: 30px;
+    }
+    .outer_div_of_years {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #EB6B57;
+        border-radius: 50px;
+        padding: 7px;
+    }
+    #yearstext {
+        margin-top: 16px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 600;
+        flex-wrap: wrap;
+    }
+    #box-content {
+        font-size: 12px;
+    }
+    .header-text{
+        font-size: 15px;
+    }
+    .text-background-a {
+        transform: translate(-44px, 5px);
+        width: 3rem;
+    }
 }
 
 
@@ -426,6 +544,8 @@ hr {
     .text {
         font-size: 11px
     }
+    
+    
 }
 
 @media only screen and (max-width: 576px) {
@@ -445,6 +565,24 @@ hr {
     }
 
 }
+
+@media only screen and (max-width: 375px)
+{
+    .text-background-b {
+        transform: translate(-80px, 5px);
+        width: 4rem;
+    }
+    .testimonial_div {
+        margin-top: -25px;
+    }
+    #testimonial_images {
+        width: 84px;
+        height: 84px;
+        border-radius: 84px;
+    }
+}
+
+
 
 /* ****************************************************************Footer***************************************************************/
 
@@ -503,13 +641,28 @@ select:focus {
     float: right;
 }
 
-@media only screen and (max-width: 700px) {
+.social_media_container{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width: 925px){
+    #social_media_image{
+        width: 40px;
+        height: 40px;
+        margin-right: 18px;
+    }
+}
+@media only screen and (max-width: 768px) {
     .newsletter {
         width: 20rem;
     }
 
     .subscribe-form {
         width: 6rem;
+    }
+    .social_media_container {
+        display: flex;
+        justify-content: left;
     }
 }
 
